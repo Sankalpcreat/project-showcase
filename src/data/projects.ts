@@ -4,123 +4,95 @@ export const projects: Project[] = [
   {
     id: '1',
     name: 'SpaceScape',
-    description: '',
+    description: 'Design your Interior with Help of AI used by more than 250 Users.',
     image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200',
-    techStack: ['React', 'TypeScript', 'TailwindCSS', 'Node.js', 'WebSocket'],
-    demoUrl: 'https://ecotrack.demo',
-    githubUrl: 'https://github.com/demo/ecotrack',
-    date: '2024-03-15'
+    techStack: ['React', 'TypeScript', 'TailwindCSS', 'NextJs', 'NextAuth','Replicate','Google Analytics'],
+    demoUrl: 'https://spacescape-ai.vercel.app',
+    githubUrl: 'https://github.com/Sankalpcreat/Spacescape',
+    date: '2024-07'
   },
   {
     id: '2',
-    name: 'pet adoption',
-    description: 'Modern financial management platform with real-time transaction tracking and AI-powered insights.',
+    name: 'Pet Adoption',
+    description: 'For helping find Pet at Faster and adopt it.User can also add there pet to be adopted.',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200',
-    techStack: ['React', 'Python', 'FastAPI', 'PostgreSQL', 'TensorFlow'],
-    demoUrl: 'https://finflow.demo',
-    githubUrl: 'https://github.com/demo/finflow',
-    date: '2024-02-28'
+    techStack: ['React', 'Express', 'Mongodb', 'Javascript', 'Oauth'],
+    demoUrl: 'https://pawfinds.vercel.app',
+    githubUrl: 'https://github.com/Sankalpcreat/PetAdoption',
+    date: '2024'
   },
   {
     id: '3',
-    name: 'npm package',
-    description: 'Serverless deployment platform with automated scaling and performance monitoring.',
+    name: 'NPM Chart',
+    description: 'Helps user to get chart for npm package download concurrency.',
     image: 'https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?auto=format&fit=crop&q=80&w=1200',
-    techStack: ['AWS', 'Terraform', 'Docker', 'Go', 'React'],
-    demoUrl: 'https://cloudscale.demo',
-    githubUrl: 'https://github.com/demo/cloudscale',
-    date: '2024-01-20'
+    techStack: ['Next', 'Typescript', 'NPM API', 'ChartJs-2', 'React'],
+    demoUrl: 'https://npmpackage.vercel.app',
+    githubUrl: 'https://github.com/Sankalpcreat/npm-package',
+    date: '2024-10-20'
   },
   {
     id: '4',
-    name: 'launchpadAI',
-    description: 'Serverless deployment platform with automated scaling and performance monitoring.',
+    name: 'LaunchpadAI',
+    description: 'Helps Startup owner to generate pitch with help of ai and also show visual data',
     image: 'https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?auto=format&fit=crop&q=80&w=1200',
-    techStack: ['AWS', 'Terraform', 'Docker', 'Go', 'React'],
-    demoUrl: 'https://cloudscale.demo',
-    githubUrl: 'https://github.com/demo/cloudscale',
-    date: '2024-01-20'
+    techStack: ['React', 'Next', 'ChartJs', 'TailwindCss','OpenAi','Mongodb','Framer Motion'],
+    demoUrl: 'https://launchpad-ai.vercel.app',
+    githubUrl: 'https://github.com/Sankalpcreat/LaunchPad-AI',
+    date: '2024-09-20'
   },
   {
     id: '5',
     name: 'TalkStream',
-    description: 'Serverless deployment platform with automated scaling and performance monitoring.',
+    description: 'A podcast generation Website having 7 different voices used to generate Voice from text',
     image: 'https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?auto=format&fit=crop&q=80&w=1200',
-    techStack: ['AWS', 'Terraform', 'Docker', 'Go', 'React'],
-    demoUrl: 'https://cloudscale.demo',
-    githubUrl: 'https://github.com/demo/cloudscale',
-    date: '2024-01-20'
+    techStack: ['React', 'Clerk', 'Zod', 'Convex', 'Tailwind'],
+    demoUrl: 'https://talk-stream.vercel.app/',
+    githubUrl: 'https://github.com/Sankalpcreat/TalkStream',
+    date: '2024-07-20'
   },
   {
     id: '6',
-    name: 'portfolio',
-    description: 'Serverless deployment platform with automated scaling and performance monitoring.',
+    name: 'Portfolio',
+    description: 'My portfolio Website Used Lot of framer motion and other stuff mostly frontend stuff.',
     image: 'https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?auto=format&fit=crop&q=80&w=1200',
-    techStack: ['AWS', 'Terraform', 'Docker', 'Go', 'React'],
-    demoUrl: 'https://cloudscale.demo',
-    githubUrl: 'https://github.com/demo/cloudscale',
-    date: '2024-01-20'
+    techStack: ['React', 'Typescript', 'framer Motion'],
+    demoUrl: 'https://www.sankalpsingh.tech',
+    githubUrl: 'https://github.com/Sankalpcreat/Sankalp_Portfolio',
+    date: '2024-08-20'
   },
   {
     id: '7',
-    name: 'flavour fusion',
-    description: 'Serverless deployment platform with automated scaling and performance monitoring.',
+    name: 'Flavour Fusion',
+    description: 'For CRUD of Recipe Sharing and Submitting so that other can see that.Having ChatBot',
     image: 'https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?auto=format&fit=crop&q=80&w=1200',
-    techStack: ['AWS', 'Terraform', 'Docker', 'Go', 'React'],
-    demoUrl: 'https://cloudscale.demo',
-    githubUrl: 'https://github.com/demo/cloudscale',
+    techStack: ['React', 'Express', 'Blob', 'Mongodb','Ejs'],
+    demoUrl: 'https://flavour-fusion03.vercel.app',
+    githubUrl: 'https://github.com/Sankalpcreat/FlavorFusion',
     date: '2024-01-20'
   },
   {
     id: '8',
-    name: 'code crafter ai',
-    description: 'Serverless deployment platform with automated scaling and performance monitoring.',
+    name: 'CodeCrafter Ai',
+    description: 'Automation of code from Writing prompt and code will be written more than 3K twitter viral',
     image: 'https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?auto=format&fit=crop&q=80&w=1200',
-    techStack: ['AWS', 'Terraform', 'Docker', 'Go', 'React'],
-    demoUrl: 'https://cloudscale.demo',
-    githubUrl: 'https://github.com/demo/cloudscale',
+    techStack: ['LLAMA 405 Model', 'Typescript','Tailwind', 'React','SandBox'],
+    demoUrl: 'https://code-crafterai.vercel.app',
+    githubUrl: 'https://x.com/3sankalpsingh/status/1854631551155552328',
     date: '2024-01-20'
   },
-  {
-    id: '9',
-    name: 'zapier ai',
-    description: 'Serverless deployment platform with automated scaling and performance monitoring.',
-    image: 'https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?auto=format&fit=crop&q=80&w=1200',
-    techStack: ['AWS', 'Terraform', 'Docker', 'Go', 'React'],
-    demoUrl: 'https://cloudscale.demo',
-    githubUrl: 'https://github.com/demo/cloudscale',
-    date: '2024-01-20'
-  },
+ 
   {
     id: '10',
-    name: 'groupChat',
-    description: 'Serverless deployment platform with automated scaling and performance monitoring.',
+    name: 'GroupChat',
+    description: 'Multiple Room Chatting application Real Time Socket.Currently working on it',
     image: 'https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?auto=format&fit=crop&q=80&w=1200',
-    techStack: ['AWS', 'Terraform', 'Docker', 'Go', 'React'],
-    demoUrl: 'https://cloudscale.demo',
-    githubUrl: 'https://github.com/demo/cloudscale',
+    techStack: ['Socket', 'Redis ', 'React', 'Typescript', 'Express'],
+    demoUrl: 'https://github.com/Sankalpcreat/group-chat',
+    githubUrl: 'https://github.com/Sankalpcreat/group-chat',
     date: '2024-01-20'
   },
-  {
-    id: '11',
-    name: 'Benito frontend',
-    description: 'Serverless deployment platform with automated scaling and performance monitoring.',
-    image: 'https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?auto=format&fit=crop&q=80&w=1200',
-    techStack: ['AWS', 'Terraform', 'Docker', 'Go', 'React'],
-    demoUrl: 'https://cloudscale.demo',
-    githubUrl: 'https://github.com/demo/cloudscale',
-    date: '2024-01-20'
-  },
-  {
-    id: '12',
-    name: 'bio Generator',
-    description: 'Serverless deployment platform with automated scaling and performance monitoring.',
-    image: 'https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?auto=format&fit=crop&q=80&w=1200',
-    techStack: ['AWS', 'Terraform', 'Docker', 'Go', 'React'],
-    demoUrl: 'https://cloudscale.demo',
-    githubUrl: 'https://github.com/demo/cloudscale',
-    date: '2024-01-20'
-  },
+  
 ];
 
 

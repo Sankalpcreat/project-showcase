@@ -31,7 +31,7 @@ export function Header() {
         transition={{ delay: 0.3 }}
         className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto"
       >
-        Exploring the intersection of design and technology through innovative solutions
+        All My Projects are listed here
       </motion.p>
     </motion.div>
   );
